@@ -40,3 +40,8 @@ VALUES			 ('Thor','25/08/2020', 3, 1)
 				,('Mimi', '16/12/2018', 1, 3)
 				,('Miau', '07/05/2016', 2, 4)
 				,('Flash', '30/09/2017', 9, 5);
+
+INSERT INTO Atendimentos (Descricao, DataAtendimento, idVeterinario, idPet)
+VALUES					 ('O paciente está bem', '27/02/2021', 1, 2)
+						,('Restam apenas um mês de vida', '30/01/2021', 3, 3)
+						,('O paciente está com dores', '25/12/2020', 2, 1);
